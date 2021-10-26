@@ -4,7 +4,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(227, 210, 243);
     color: white;
-    margin: 0px;
+    margin: auto;
+   
     
 }
 header {
@@ -12,7 +13,7 @@ header {
     text-align: center;
     border-radius: 7px;
     margin: -20px 5px 0px 5px;
-    height: 150px;
+    height: 100px;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.514);
 }
 header > h3 {
@@ -20,7 +21,7 @@ header > h3 {
     padding: 5px;
     color: yellow;
     box-shadow: 2px 2px 4px yellow;
-    width: 400px;
+    font-size: small;
     margin: auto;
     border-radius: 10px;
     
@@ -29,13 +30,13 @@ header > h3 {
 header > h1 {
     margin-bottom: 0px;
     font-weight: bolder;
-    font-size: 40pt;
+    font-size: normal;
 }
 main {
     background-image: linear-gradient( to right,  rgb(142, 47, 231),rgb(65, 137, 170)
     );
     max-width: 1000px;
-    min-width: 300px;
+    min-width: 150px;
     border-radius: 15px;
     padding: 5px;
     margin: auto;
@@ -46,7 +47,8 @@ main {
 section {
     display: block;
     background-color: #530c8d;
-    width: 500px;
+    max-width: 700px;
+    min-width: 150px;
     padding: 10px;
     border-radius: 15px;
     text-align: justify;
@@ -66,12 +68,13 @@ h2 {
 }
 h2:hover {
     background-color: rgb(0, 0, 0);
+   
     
 }
 section > p {
     text-indent: 10px;
     margin-top: -18px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     pad
     
 }
@@ -85,10 +88,10 @@ ul {
 a {
     background-color: rgb(165, 44, 189);
     color: white;
-    padding: 10px;
+    padding: 5px;
     border-radius: 7px;
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 2px;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.39);
 }
 footer {
