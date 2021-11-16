@@ -2,29 +2,35 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(227, 210, 243);
+    background-color: rgb(255, 255, 255);
     color: white;
     margin: auto;
    
     
 }
 header {
-    background-color: rgb(142, 47, 231);
+    background-image: url("imagens/logo.png") no-repeat ;
+    background-color: black;
     text-align: center;
     border-radius: 7px;
     margin: -20px 5px 0px 5px;
-    height: 100px;
+    height: 170px;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.514);
 }
+.logo {
+    margin-top: 20px;
+    display: inline-block;
+    margin-bottom: -10px;
+}
 header > h3 {
-    
-    padding: 5px;
-    color: yellow;
-    box-shadow: 2px 2px 4px yellow;
-    font-size: small;
+    color: rgb(255, 255, 255);
+   font-size: 10pt;
+    padding: 12px;
     margin: auto;
-    border-radius: 10px;
-    
+    background-color: #af3e05;
+    width: 290px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.658);
     
 }
 header > h1 {
@@ -33,20 +39,20 @@ header > h1 {
     font-size: normal;
 }
 main {
-    background-image: linear-gradient( to right,  rgb(142, 47, 231),rgb(65, 137, 170)
+    background-image: linear-gradient( to right,  #af3e05,rgb(51, 8, 8)
     );
     max-width: 1000px;
     min-width: 150px;
     border-radius: 15px;
     padding: 5px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: px;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.486);
    
 }
 section {
     display: block;
-    background-color: #530c8d;
+    background-color: #271102;
     max-width: 700px;
     min-width: 150px;
     padding: 10px;
@@ -81,12 +87,12 @@ section > p {
 nav {
     float: right;
     margin: auto; 
+    margin-top: -30px;
 }
 ul {
     margin: auto;
 }
-a {
-    background-color: rgb(165, 44, 189);
+a { 
     color: white;
     padding: 5px;
     border-radius: 7px;
@@ -94,11 +100,14 @@ a {
     margin-left: 2px;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.39);
 }
+a:hover {
+    background-color: #ff00003d;
+}
 footer {
     background-color: rgb(35, 144, 194);
     color: white;
     text-align: center;
-    margin-top: ;
+   
     font-size: small;
 }
 
