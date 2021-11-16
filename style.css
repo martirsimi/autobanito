@@ -1,13 +1,17 @@
 @charset "UTF-8";
 
+/* Formatacao geral do site */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(255, 255, 255);
     color: white;
     margin: auto;
-   
     
 }
+
+/* Formatacao do cabecalho */
+
 header {
     background-image: url("imagens/logo.png") no-repeat ;
     background-color: black;
@@ -38,8 +42,32 @@ header > h1 {
     font-weight: bolder;
     font-size: normal;
 }
+
+/* formatacao do menu de navegacao */
+
+nav {
+    float: right;
+    margin: auto; 
+    margin-top: -30px;
+}
+a { 
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.39);
+    background-color: rgb(34, 32, 32);
+    margin: 0px -2px;
+}
+a:hover {
+    background-color: #ff00008f;
+}
+
+/* Formatacao do corpo */
+
 main {
-    background-image: linear-gradient( to right,  #af3e05,rgb(51, 8, 8)
+    
+    background-image: linear-gradient( to right,  #031a24,#0c2a63
     );
     max-width: 1000px;
     min-width: 150px;
@@ -48,11 +76,13 @@ main {
     margin: auto;
     margin-top: px;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.486);
-   
 }
+
+/* Formatacao da seccao */
+
 section {
     display: block;
-    background-color: #271102;
+    background-color: #300202;
     max-width: 700px;
     min-width: 150px;
     padding: 10px;
@@ -60,51 +90,48 @@ section {
     text-align: justify;
     border-right: 2px solid white;
     margin: auto;
-   
+}
+aside {
+    display: block;
+    background-color: #490505;
+    max-width: 700px;
+    min-width: 150px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: justify;
+    border-right: 2px solid white;
+    margin: auto;
 }
 
 h2 {
-    color: #3bb4ec;
-    font-size: 13px;
-    padding: 15px;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
     margin: 10px;
     border-radius: 15px;
-    text-shadow: 1px 0px 4px rgba(63, 142, 216, 0.377);
-    
+    text-shadow: 1px 0px 4px rgba(63, 142, 216, 0.377); 
 }
-h2:hover {
-    background-color: rgb(0, 0, 0);
-   
-    
+
 }
 section > p {
-    text-indent: 10px;
+    text-indent: 20px;
     margin-top: px;
-    margin-bottom: 5px;
-    pad
-    
+    margin-bottom: 5px; 
 }
-nav {
-    float: right;
-    margin: auto; 
-    margin-top: -30px;
+
+
+li {
+    padding: 7px 0px 0px 0px;
+    ;
 }
-ul {
-    margin: auto;
+img.wash {
+    width: auto;
+    margin: 5px 0px -10px 10px;
 }
-a { 
-    color: white;
-    padding: 5px;
-    border-radius: 7px;
-    text-decoration: none;
-    margin-left: 2px;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.39);
-}
-a:hover {
-    background-color: #ff00003d;
-}
+/* Formatacao do rodape */
+
 footer {
-    background-color: rgb(35, 144, 194);
+    background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
    
